@@ -1,0 +1,237 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Pleased to meet you",
+        "Nice to meet you",
+        "Good Evening",
+        "Good Afternoon",
+        "Good Morning",
+        "It's been a while"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hi there,It's been a while. How can I help?",
+        "Hey, pleased to meet you "
+      ]
+    },
+    
+
+    {
+      "tag": "PersonalQuestionaires",
+      "patterns": [
+        "Hi, what is your name",
+        "Who's on the other side",
+        "Is this Sam?",
+        "Do I kow you?"
+      ],
+      "responses": [
+        "Hey :) it's Sam here!!",
+        "Hi, this is Sam, how may I help you?",
+        "Yes, this is Sam, your Virtual Assistant. How can I help you?"
+      ]
+    },
+
+
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later","I'm out of here","Take it easy", "Catch you later","Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Catch you later :)"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept all formats of UPI payments",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "FoodAvailability",
+      "patterns": [
+        "Can I get somethhing to eat?",
+        "Menu",
+        "Menu please",
+        "Can i get the menu?",
+        "What are available?",
+        "Is there something to eat?"
+      ],
+      "responses": [
+        "MENU:  1)Assam Tea  2)Home Style Cardamom Tea  3)Home Style Ginger Tea  4)Green Tea  5)Darjeeling Tea 6)Hot Velvet Coffee  7)Vanilla Latte  8)Cappuccino  9)Cafe Mocha 10)Espresso Shot   ***Reply with order number or the order name***     "
+      ] 
+    },
+    {
+      "tag": "Order-1",
+      "patterns": [
+        "1)",
+        "one",
+        "Assam Tea"
+      ],
+      "responses": [
+        "Your order ***'Assam Tea'*** has been successfully placed"
+      ] 
+    },
+    {
+      "tag": "Order-2",
+      "patterns": [
+        "2)",
+        "Two",
+        "Home Style Cardamom Tea"
+      ],
+      "responses": [
+        "Your order ***'Home Style Cardamom Tea'*** has been successfully placed"
+      ] 
+    },
+    {
+      "tag": "Order-3",
+      "patterns": [
+        "3)",
+        "Three",
+        "Home Style Ginger Tea"
+      ],
+      "responses": [
+        "Your order ***'Home Style Ginger Tea'*** has been successfully placed"
+      ] 
+    },
+    {
+      "tag": "Order-4",
+      "patterns": [
+        "4)",
+        "Four",
+        "Green Tea"
+      ],
+      "responses": [
+        "Your order ***'Green Tea'*** has been successfully placed"
+      ] 
+    },
+    {
+      "tag": "Order-5",
+      "patterns": [
+        "5)",
+        "Five",
+        "Darjeeling Tea"
+      ],
+      "responses": [
+        "Your order ***'Darjeeling Tea'*** has been successfully placed"
+      ] 
+    },
+    {
+      "tag": "Order-6",
+      "patterns": [
+        "6)",
+        "Six",
+        "Hot Velvet Coffee"
+      ],
+      "responses": [
+        "Your order ***'Hot Velvet Coffee'*** has been successfully placed"
+      ] 
+    },
+    {
+      "tag": "Order-7",
+      "patterns": [
+        "7)",
+        "7",
+        "Seven",
+        "Vanilla Latte"
+      ],
+      "responses": [
+        "Your order ***'Vanilla Latte'*** has been successfully placed"
+      ] 
+    },    
+    {
+      "tag": "Order-8",
+      "patterns": [
+        "8)",
+        "Eight",
+        "Cappuccino"
+      ],
+      "responses": [
+        "Your order ***'Cappuccino'*** has been successfully placed"
+      ] 
+    },
+    {
+      "tag": "Order-9",
+      "patterns": [
+        "9)",
+        "Nine",
+        "Cafe Mocha"
+      ],
+      "responses": [
+        "Your order ***'Cafe Mocha'*** has been successfully placed"
+      ] 
+    },
+    {
+      "tag": "Order-10",
+      "patterns": [
+        "10)",
+        "Ten",
+        "Espresso Shot"
+      ],
+      "responses": [
+        "Your order ***'Espresso Shot'*** has been successfully placed"
+      ] 
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
